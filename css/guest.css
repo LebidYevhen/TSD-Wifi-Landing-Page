@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'FF Mark';
+    padding: 10px;
+    margin: 0;
+}
+
+.guest_wrapper {
+    padding: 50px;
+    border: 10px solid #000;
+    height: 100%;
+}
+
+.page_logo {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.guest_description {
+    margin-top: 100px;
+    font-weight: 400;
+}
+
+.guest_description {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.guest_button {
+    margin-top: 100px;
+    text-transform: uppercase;
+    background-color: inherit;
+
+    outline: none;
+
+    font-size: 20px;
+
+    cursor: pointer;
+    padding: 20px 125px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+@media (max-width: 1200px) {
+    .guest_wrapper {
+        padding: 50px;
+        border: 10px solid #000;
+    }
+    .page_logo {
+        max-width: 200px;
+        height: 200px;
+    }
+    .guest_description {
+        margin-top: 100px;
+    }
+    .guest_button {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 996px) {
+    .page_logo {
+        max-width: 200px;
+    }
+    .guest_button {
+        font-size: 15px;
+        padding: 20px 100px;
+        margin-top: 100px;
+    }
+    .guest_description {
+        margin-top: 100px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .guest_wrapper {
+        height: 100vh;
+        padding: 20px;
+        border: 7px solid #000;
+    }
+    .page_logo {
+        max-width: 150px;
+        height: 150px;
+    }
+    .guest_button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .guest_description {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .guest_button {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        height: 100vh;
+    }
+    .guest_wrapper {
+        border: 5px solid #000;
+        padding: 25px;
+        height: 100vh;
+    }
+    .page_logo {
+        width: 100px;
+        height: 100px;
+    }
+    .guest_description {
+        text-align: center;
+        font-size: 20px;
+        line-height: 1;
+        margin-top: 150px;
+    }
+
+
+    .guest_button {
+        margin-top: 75px;
+
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 150px;
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .page_logo {
+        width: 100px;
+        height: 100px;
+    }
+    body {
+        height: 100vh;
+    }
+    .guest_description {
+        margin-top: 150px;
+        font-size: 15px;
+    }
+    .guest_button {
+        margin-top: 93px;
+    }
+}
+
+

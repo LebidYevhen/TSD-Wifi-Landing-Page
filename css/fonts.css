@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Austin';
+    src: local('Austin Roman'), local('Austin-Roman'),
+        url('../fonts/AustinCyr-Roman.woff2') format('woff2'),
+        url('../fonts/AustinCyr-Roman.woff') format('woff'),
+        url('../fonts/AustinCyr-Roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FF Mark';
+    src: local('FF Mark Regular'), local('FF-Mark-Regular'),
+        url('../fonts/Mark-Regular.woff2') format('woff2'),
+        url('../fonts/Mark-Regular.woff') format('woff'),
+        url('../fonts/Mark-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
