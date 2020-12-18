@@ -12,7 +12,6 @@ body {
 .guest_wrapper {
     padding: 50px;
     border: 10px solid #000;
-    height: 100%;
 }
 
 .page_logo {
